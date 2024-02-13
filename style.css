@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(120deg,#fffeff , #d7fffe);
+    padding: 10px;
+}
+
+.app{
+    width: 100%;
+    max-width: 540px;
+    background: #f5fefd;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    color: BLACK;
+    border: 2.5px solid black;
+}
+
+.app h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.app h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.quiz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn{
+    width: 450px;
+    margin: 5px;
+    height: 35px;
+    background: transparent;
+    border-radius: 8px;
+    font-weight: 700;
+}
+.btn:hover:not([disabled]){
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+
+#answer-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+    margin-top: 15px;
+
+}
+
+#next-btn{
+    background: transparent;
+    width: 125px;
+    height: 35px;
+    border-radius: 10px;
+    font-weight: 700;
+    display: none;
+}
+
+#next-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+.correct{
+    background: greenyellow;
+}
+.incorrect{
+    background: red;
+}
